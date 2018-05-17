@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+cd "${SCRIPTPATH}/../octocatalog-diff"
+
+exec ./bin/octocatalog-diff "$@"

@@ -1,0 +1,39 @@
+GIT
+  remote: https://github.com/puppetlabs/puppet.git
+  revision: 190b0512bcedf1febf5d7c54530ecb152c6ce155
+  specs:
+    puppet (6.0.0)
+      CFPropertyList (~> 2.2)
+      facter (>= 2.0.1, < 4)
+      fast_gettext (~> 1.1.2)
+      hiera (>= 3.2.1, < 4)
+      hocon (~> 1.0)
+      httpclient (~> 2.8)
+      locale (~> 2.1)
+      multi_json (~> 1.13)
+      net-ssh (>= 3.0, < 5)
+      semantic_puppet (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    CFPropertyList (2.3.6)
+    facter (2.5.1)
+      CFPropertyList (~> 2.2)
+    fast_gettext (1.1.2)
+    hiera (3.4.3)
+    hocon (1.2.5)
+    httpclient (2.8.3)
+    locale (2.1.2)
+    multi_json (1.13.1)
+    net-ssh (4.2.0)
+    semantic_puppet (1.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puppet!
+
+BUNDLED WITH
+   1.13.7

@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diffy (3.2.0)
+    hashdiff (0.3.7)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    multi_xml (0.6.0)
+    octocatalog-diff (1.5.3)
+      diffy (>= 3.1.0)
+      hashdiff (>= 0.3.0)
+      httparty (>= 0.11.0)
+      rugged (>= 0.25.0b2)
+    rugged (0.27.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  octocatalog-diff
+
+BUNDLED WITH
+   1.13.7
