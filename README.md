@@ -1,6 +1,6 @@
 # octocatalog-diff suite
 
-Differerent puppet versions and octocatalog-diff bundled
+Differerent Puppet versions and octocatalog-diff bundled
 
 For use on EL7
 
@@ -21,6 +21,7 @@ gem install fpm
 
 
 ```
+. /opt/rh/rh-ruby24/enable
 (cd octocatalog-diff; bundle install)
 (cd puppet4; bundle install)
 (cd puppet5; bundle install)
@@ -29,9 +30,9 @@ gem install fpm
 fpm -s dir -t rpm \
   --name octocatalog-diff-suite \
   --version 0.1.0 \
-  --iteration 0 \
+  --iteration 1 \
   --exclude "*.rpm" \
-  --description "octocatalog-diff and different puppet versions bundled for EL7" \
+  --description "octocatalog-diff and different Puppet versions bundled for EL7" \
   --url https://github.com/vinzent/octocatalog-diff-suite \
   --depends rh-ruby24-ruby \
   --depends git  \
